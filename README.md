@@ -1,5 +1,8 @@
 # Blackjack | Stochastic Phenomena Simulation with Python
-
+![python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) &nbsp;
+<img src="http://ForTheBadge.com/images/badges/made-with-python.svg" alt="made_with_python" height="28px"> &nbsp;
+[![star](https://img.shields.io/static/v1?label=GIVE%20A%20STAR&message=%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85&color=ff69b4&style=for-the-badge&logo=github)](https://github.com/damnicolussi/blackjack/)
+<br>
 School project of simulation of stochastic phenomena with Python
 
 ## Request
@@ -92,3 +95,9 @@ and 56%.
 By doing an online search it can be seen that from various studies the
 the house's payout percentage is around 51%.
 Consequently it can be said that data quite corresponding to reality have been obtained, in fact it must be considered that some aspects have not been considered or have been greatly simplified, an example is the audacity of the player during a game which in the case of the program is randomly chosen.
+
+## Useful Links
+* This Repository: https://github.com/damnicolussi/blackjack/
+* License: https://github.com/damnicolussi/blackjack/blob/main/LICENSE
+
+*If you find any issues or do you have any suggestion please create a pull request or report an issue*
