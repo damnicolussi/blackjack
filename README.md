@@ -3,13 +3,17 @@
 <img src="http://ForTheBadge.com/images/badges/made-with-python.svg" alt="made_with_python" height="28px"> &nbsp;
 [![star](https://img.shields.io/static/v1?label=GIVE%20A%20STAR&message=%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85&color=ff69b4&style=for-the-badge&logo=github)](https://github.com/damnicolussi/blackjack/)
 <br>
-School project of simulation of stochastic phenomena with Python
+This project is a Python-based simulation of a stochastic phenomenon - specifically, a game of blackjack. It was developed as part of a school project to explore the dynamics of the game and study the influence of various parameters on the outcomes.
 
-## Request
+## Project Requirements
 
-Your aim is to simulate a game of blackjack using Python, suppose you Each game goes to one bet and the initial bet is 5. The player bets according to the scheme: "if the player wins bets the same amount again, otherwise bets double".
-To decide whether to draw a new card, the player must calculate in mind the probability of drawing a card from the deck that is to him "advantageous", based on the cards he can actually see on the table. If the probability of drawing a "profitable" card is greater than a certain percentage p then the player asks for another card. Have p drawn randomly in the range 20%-100% (depending on how bold you feel with each hand).
-The game must continue until the player doubles the initial amount or lose everything or there are no more cards in the deck. Consider 100 as initial amount. Simulate 1 million matches: how many times does the dealer win in percentage and how many times does the player win? Try to change the starting amount or bets as desired random and check if the result changes, make charts that represent how much obtained.
+The simulation aims to replicate a game of blackjack under specific conditions:
+
+- Each game starts with an initial bet of 5 units.
+- The player follows a betting strategy: "if the player wins, they bet the same amount again; otherwise, they bet double."
+- The decision to draw a new card is based on the player's calculation of the probability of drawing a card that is advantageous. The probability threshold 'p' is randomly chosen in the range of 20% to 100% for each hand.
+- The game continues until the player doubles the initial amount, loses everything, or runs out of cards in the deck.
+- The initial amount is set to 100, and 1 million matches are simulated.
 
 ## Results
 
@@ -89,12 +93,7 @@ The game must continue until the player doubles the initial amount or lose every
 
 ## Conclusions
 
-The house payout percentages
-that have been obtained vary between 54%
-and 56%.
-By doing an online search it can be seen that from various studies the
-the house's payout percentage is around 51%.
-Consequently it can be said that data quite corresponding to reality have been obtained, in fact it must be considered that some aspects have not been considered or have been greatly simplified, an example is the audacity of the player during a game which in the case of the program is randomly chosen.
+The obtained house payout percentages fluctuate within the range of 54% to 56%. An online search reveals that various studies indicate the house's payout percentage is typically around 51%. Therefore, it can be concluded that the data obtained closely aligns with reality. It's important to note that certain aspects have been either overlooked or significantly simplified in the simulation. For instance, the player's audacity during a game, which in the program's case is randomly determined, is one such simplified element.
 
 ## Useful Links
 * This Repository: https://github.com/damnicolussi/blackjack/
