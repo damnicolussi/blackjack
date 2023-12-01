@@ -15,6 +15,12 @@ The simulation aims to replicate a game of blackjack under specific conditions:
 - The game continues until the player doubles the initial amount, loses everything, or runs out of cards in the deck.
 - The initial amount is set to 100, and 1 million matches are simulated.
 
+## Project Structure
+
+The project files can be found in the `src` folder.
+- `blackjack_simulation.ipynb`
+- `blackjack_simulation.py`
+
 ## Results
 
 ### Simulation 1 (deposit change, bet is set to 5)
